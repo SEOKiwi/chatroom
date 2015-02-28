@@ -1,0 +1,10 @@
+{
+	"name" : "Test",
+	"repositories" : [ {
+		"type" : "composer",
+		"url" : "https://packagist.org/"
+	} ],
+	"autoload": { 
+		"classmap": [ "vendor/classes" ]
+	}
+}
