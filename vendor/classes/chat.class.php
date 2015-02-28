@@ -23,7 +23,7 @@ class Chat {
 		}
 		
 		$_SESSION["loggedIn"] = true;
-		header('Location: /index.php');
+		header('Location: /');
 	}
 	
 	/**
