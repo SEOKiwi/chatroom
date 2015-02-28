@@ -1,4 +1,7 @@
 <?php
+// Load the Autoloader
+require 'vendor/autoload.php';
+
 session_start();
 
 if (!empty($_POST['logout'])) {
@@ -33,45 +36,45 @@ if (!empty($_POST['chatName'])) {
 		<h1>Nobby Chat</h1>
 		<?php if (!empty($_SESSION['chatName'])) { ?>
 		<div class="row">
-			<div class="col-md-12 text-right">
+			<div class="col-xs-12 text-right">
 				<form name="logoutForm" method="POST">
 					<input id="logout-submit" class="btn btn-primary" name="logout" type="submit" value="Logout">
 				</form>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-8">
+			<div class="col-xs-8">
 				Chat Window
 				<div id="chat"></div>
 				<div class="row">
 					<form name="chatForm" method="POST">
-						<div class="col-md-10">
+						<div class="col-xs-10">
 							<input type="text" id="message" name="message" class="form-control" placeholder="Your message goes here.">
 						</div>
-						<div class="col-md-2 text-right">
+						<div class="col-xs-2 text-right">
 							<input id="chat-submit" class="btn btn-primary" type="submit" value="Submit">
 						</div>
 					</form>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-xs-4">
 				Users
 				<div id="users"></div>
 			</div>
 		</div>
 		<?php } else { ?>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-xs-4">
 					<div class="warning"><?php echo !empty($warning) ? $warning : ""; ?></div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-xs-4">
 					<h3>Choose your chat name</h3>
 					<form method="POST">
 						<input type="text" class="form-control" name="chatName" />
 						<input id="name-submit" class="btn btn-primary" type="submit" value="Submit">
 					</form>
 				</div>
-				<div class="col-md-4"></div>
+				<div class="col-xs-4"></div>
 			</div>
 		<?php } ?>
 	</div>

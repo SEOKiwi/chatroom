@@ -16,3 +16,9 @@
 <div class='message'>(3:18 PM) <b>Norbert</b>: is online.<br></div>
 <div class='message'>(3:18 PM) <b>Norbert</b>: is online.<br></div>
 <div class='message'>(3:18 PM) <b>Hans</b>: is online.<br></div>
+<div class='message'>(3:43 PM) <b>Norbert</b>: is online.<br></div>
+<div class='message'>(3:44 PM) <b>Norbert</b>: is online.<br></div>
+<div class='message'>(3:45 PM) <b>Norbert</b>: is online.<br></div>
+<div class='message'>(3:45 PM) <b>Norbert</b>: is online.<br></div>
+<div class='message'>(3:45 PM) <b>Hans</b>: is online.<br></div>
+<div class='message'>(3:46 PM) <b>Hans</b>: is online.<br></div>
